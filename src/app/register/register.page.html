@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="block">
+    <ion-title style="text-align: center; font-weight: bold;">Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<img src="C:\Users\Shanmathi\Desktop\TNPSC\loginpage.jpg" style="height: 34;">
+<ion-item color="none">
+  <ion-label position="floating">User ID</ion-label>
+  <ion-input type="text" placeholder="Enter your User ID"></ion-input>
+</ion-item>
+<br>
+
+<ion-item color="none">
+  <ion-label position="fixed">Date of Birth</ion-label>
+  <ion-input type="date"></ion-input>
+</ion-item>
+<br>
+
+<ion-item color="none">
+  <ion-label position="floating">Mobile Number</ion-label>
+  <ion-input type="number"></ion-input>
+</ion-item>
+<br>
+
+<ion-item color="none">
+  <ion-label position="floating">Enter Password</ion-label>
+  <ion-input type="password"></ion-input>
+</ion-item>
+<br>
+
+
+<ion-item color="none">
+  <ion-label position="floating">Re-enter Password</ion-label>
+  <ion-input type="password"></ion-input>
+</ion-item>
+<br>
+
+<ion-button expand="block" (click)="submit()"><b>Submit</b></ion-button>
+<ion-button  fill="clear" expand="block" (click)="back()">
+  <b style="color: black;">Back</b>
+</ion-button>
+</ion-content>
